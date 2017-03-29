@@ -29,3 +29,21 @@ body {
 	background:
      #DCF7F7 
 }
+
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
