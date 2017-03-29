@@ -29,27 +29,3 @@ body {
 	background:
      #DCF7F7 
 }
-
-
-
-
-
-nav li a {
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 0 30px;
-	color: #143567;
-	text-shadow: 0 1px 0 white;}
-	
-	nav li a:hover {
-	color: #a45f93;}
-	
-	nav li {
-	float:left;
-	list-style: none;}
-	nav {
-	overflow: hidden;
-	float: right;
-}
- 
