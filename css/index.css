@@ -21,4 +21,9 @@ nav li a{
 #lol {
 	position:absolute;
 	top: 150px;}
+	
+ul li a{
+	text-decoration: none;
+	
+}	
 
