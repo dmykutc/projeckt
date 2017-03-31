@@ -1,18 +1,15 @@
 body {
-max-width:1300px;
-	margin:0 auto;
-}
-body{
+max-width:1400px;
+margin:0 auto;
 background-image :url('https://pp.userapi.com/c837522/v837522139/380ab/pjt6d6fo-tI.jpg');
 background-attachment: fixed;
-
 }
 
 nav li {display:inline-block;
 padding: 5px;
 margin: 4px;
-
 }
+
 nav li a{
 	text-decoration: none;
 	padding: 5px;
@@ -27,7 +24,7 @@ nav li a{
 	position:absolute;
 	top: 150px;}
 	
-#strah ul li a{
+	#strah ul li a{
 	text-decoration: none;
 	padding: 5px;
 	margin: 0em;
@@ -37,37 +34,44 @@ nav li a{
 	color: #6555FA-6555FA;
 	
 }	
- img{
+ img {
 	float: right;
 	width: 30em; height: 20em;
 	margin:0 0 1em 1em;
+	
+	
+	
 }
 
 #otstup {
-margin-top:50px;
+margin-top:60px;
+
 }
 
 #color {color: blue;
 	font-weight: normal;
 }
 
-header nav ul li a:hover
-{
+header nav ul li a:hover{
 	color: #F70C63;
 }
 
-header nav ul li a:active
-{
-	color: #0C36F2;
-}
-#psevdo li a:visited{
-	color: #B2B9D9;
-}
-h1 {
-	font-size:30px;
-}
 p {
 	font-size: 1.1em;
 	text-indent: 1.1em;
 }
+	
+
+
+footer {
+	
+	text-decoration: none;
+	background-color: #B5144F;
+	padding-left: 2em;
+	padding-bottom: 5em;
+}
+main {
+	padding: 10px;
+}
+
 
