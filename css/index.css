@@ -43,9 +43,23 @@ nav li a{
 	margin:0 0 1em 1em;
 }
 
-.otstup {
-	
+#otstup {
 padding-top:50px;
 }
 
+#color {color: blue;
+	font-weight: normal;
+}
 
+header nav ul li a:hover
+{
+	color: #F70C63;
+}
+
+header nav ul li a:active
+{
+	color: #0C36F2;
+}
+#psevdo li a:visited{
+	color: #B2B9D9;
+}
