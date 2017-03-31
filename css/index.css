@@ -1,5 +1,5 @@
 body {
-max-width:1000px;
+max-width:1300px;
 	margin:0 auto;
 }
 body{
@@ -44,7 +44,7 @@ nav li a{
 }
 
 #otstup {
-padding-top:50px;
+margin-top:50px;
 }
 
 #color {color: blue;
@@ -63,3 +63,11 @@ header nav ul li a:active
 #psevdo li a:visited{
 	color: #B2B9D9;
 }
+h1 {
+	font-size:30px;
+}
+p {
+	font-size: 1.1em;
+	text-indent: 1.1em;
+}
+
