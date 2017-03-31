@@ -1,3 +1,7 @@
+body {
+max-width:1000px;
+	margin:0 auto;
+}
 body{
 background-image :url('https://pp.userapi.com/c837522/v837522139/380ab/pjt6d6fo-tI.jpg');
 background-attachment: fixed;
@@ -6,13 +10,13 @@ background-attachment: fixed;
 
 nav li {display:inline-block;
 padding: 5px;
-margin: 5px;
+margin: 4px;
 
 }
 nav li a{
 	text-decoration: none;
 	padding: 5px;
-	margin: 2em;
+	margin: 1em;
 	font-size: 20px;
 	font-weight: bold;
 	text-shadow: 0 1px 0 white;
@@ -36,13 +40,13 @@ nav li a{
  img{
 	float: right;
 	width: 30em; height: 20em;
+	margin:0 0 1em 1em;
 }
 
 #otstup {
-	padding:20px;
+	
 padding-top:50px;
 }
-
 
 
 
