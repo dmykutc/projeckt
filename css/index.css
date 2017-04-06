@@ -126,5 +126,24 @@ video {
 	width: 450px;
 	height: 350px;
 	margin:0 0 1em 1em;
+
+}
+.icon {
+	display: flex;
+
+}
+
+.icon img {
+
+	width: 40px;
+	height: 40px;
+}
+.icon img:hover{
+		transition: all 0.5s;
 	
 }
+
+
+
+
+
