@@ -150,20 +150,21 @@
                         <img src="img/logo.png" alt="logo">
                     </div>
                     <div class="text">
-                        <input type="text" name="client name" placeholder="Name:">
+                        <input type="text" name="client name" id="text" placeholder="Name:">
                     </div>
                     <br>
                     <label>
-                        <input type="email" name="Client-email" placeholder="E-mail">
+                        <input type="email" name="Client-email" id="email" placeholder="E-mail">
                         </label>
                     <br>
-                    <textarea placeholder="Message"></textarea>
+                    <textarea placeholder="Message" id="message"></textarea>
                     <br>
                     <div class="button">
-                        <input class="dws-submit" type="submit">
-                        <input class="dws-reset" type="reset">
+                        <input class="btm-submit" type="submit">
+                        <input class="btm-reset" type="reset">
                     </div>
                 </form>
+                <p id="done"></p>
             </div>
         </section>
     </main>
@@ -171,8 +172,11 @@
         <small>Copyright © 2017 Стоматологічна клініка Пародент. All rights reserved.</small>
         <br> Theme: ColorMag by<a href="https://themegrill.com/themes/colormag/">ThemeGrill.</a> Powered by<a href="https://wordpress.org/">WordPress.</a>
     </footer>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-    <script  src="video/mediaelement-and-player.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+ <script src="index.js"></script>
 </body>
 </html>
