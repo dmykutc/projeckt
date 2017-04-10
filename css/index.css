@@ -3,14 +3,12 @@ html {
 }
 
 body {
-	
 	max-width: 1400px;
 	margin: 0 auto;
 	background-image: url('http://img0.liveinternet.ru/images/attach/b/1/5186/5186162_2194375_pinktum235.jpg');
 	background-attachment: fixed;
 	background-color: #ADB7BA;
 }
-
 
 #insurances ul li a {
 	text-decoration: none;
@@ -28,8 +26,6 @@ body {
 	text-align: center;
 }
 
-
-
 p {
 	font-size: 1.1em;
 	text-indent: 1.1em;
@@ -37,26 +33,18 @@ p {
 }
 
 footer {
+	margin-top: 50px;
 	text-decoration: none;
 	background-color: #B5144F;
-	
-}
-
-footer a {
-	text-decoration: none;
 }
 
 main {
 	margin-top: 70px;
-	
 }
 
 .conteiner {
-	
 	float: right;
-margin: 0 0 1em 1em;
-	
-	
+	margin: 0 0 1em 1em;
 }
 
 .form {
@@ -135,119 +123,154 @@ img {
 	transition: all 0.5s;
 }
 
-
-
-
-
-
-
-@media screen and (max-width: 870px){
+@media screen and (max-width: 870px) {
 	.navigation {
-			display: flex;
-		flex-direction:column;}
-}
-
-@media screen and (max-width: 870px){
-	
-.form{
-	display: flex;
-	width: 100%;
-	background:none;
-}	
-
-}
-
-@media screen and (max-width: 870px){
-footer small{
-	flex-direction:column;
-	display: flex;
-	width: 100%;
-}
+		display: flex;
+		flex-direction: column;
 	}
-	
-	@media screen and (max-width: 870px){
-		img{
-			width: 100%;
-		}
-	}
-	@media screen and (max-width: 870px){
-		.conteiner video {
-			width: 100%;
-		}
-	}
-	@media screen and (max-width: 870px){
-		 input textarea {
-			width: 100%;
-		}
-		iframe{
-			width: 100%;
-		}
-		html{
-			padding: 20px;
-		}
-	}
-		
-	
-
-
-
-
-
-
-
-
-
-
-nav {
-	width: 100%;
-	padding-bottom: 30px;
-    
-    
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    
-    background: -webkit-gradient(linear, left top, left bottom, from(#0b2b61), to(#1153c0));
-     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 2px 3px 10px #011331;
-    -moz-box-shadow: 2px 3px 10px #011331;
-    -webkit-box-shadow: 2px 3px 10px #011331;
 }
-nav {
-    position: relative;
-    background: #B5144F;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+
+@media screen and (max-width: 870px) {
+	.form {
+		display: flex;
+		width: 100%;
+		background: none;
+	}
 }
- 
+
+@media screen and (max-width: 870px) {
+	footer small {
+		flex-direction: column;
+		display: flex;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.conteiner video {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	input textarea {
+		width: 100%;
+	}
+	iframe {
+		width: 100%;
+	}
+	html {
+		padding: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul:after,
+ul:before {
+	display: block;
+	content: '';
+}
+
+nav ul:after {
+	clear: both;
+}
+
 nav li {
-	
-    float: left;
-    list-style: none;
-    border-right: 1px solid #4a4a4a;
-    border-left: 1px solid black;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	background: linear-gradient(rgba(220, 220, 255, 0.4) 85%, rgba(255, 255, 255, 0.5) 100%);
+	float: left;
+	cursor: pointer;
+	padding: 3px 10px;
+	border-top: 2px solid rgba(200, 200, 255, 0.5);
+	border-bottom: 2px solid rgba(50, 50, 50, 0.4);
 }
- 
+
 nav li a {
-	
-    
-    z-index: 2;
-    position: relative;
-    cursor: pointer;
-    float: left;
-    font-size: 18px;
-    font-family: helvetica, arial, sans-serif;
-    text-decoration: none;
-    padding: 15px 45px;
-    color: #fff;
-    
+	display: block;
+	padding: 10px 13px;
+	font-size: 26px;
+	text-decoration: none;
+	border-radius: 5px;
+	position: relative;
+	top: 0;
+	color: #fff;
+	transition: all .4s;
 }
-header nav ul li a:hover {
-	color: #A3C0C9;
+
+nav li:hover a {
+	top: -15px;
+	color: #4eacff;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.7);
+	transition: all .4s;
 	text-decoration: none;
 }
+
+nav li a:after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 42%;
+	border-style: solid;
+	border-color: transparent;
+	border-width: 5px 5px 0 5px;
+	transition: all .4s;
+}
+
+nav li:hover a:after {
+	border-color: white transparent transparent transparent;
+	transition: all .4s;
+	text-decoration: none;
+}
+
+
+/*************************************/
+
+.menu a {
+	font-family: georgia;
+	font-size: 20px;
+	font-style: italic;
+	text-transform: capitalize;
+	color: #36389C;
+}
+
+.menu li {
+	border-right: 1px solid rgba(200, 200, 255, 0.5);
+	border-left: 1px solid rgba(40, 40, 40, 0.2);
+}
+
+
+
+
+
+
+
+
+
+

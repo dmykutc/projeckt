@@ -17,8 +17,14 @@ $.ajax({
     },
     dataType: "json"
 }).done(function(){
-    $("#done").html("thank you for contacting us");
+    $("#done").html("Thank you for contacting us");
 }
 );
     
 }
+
+
+
+
+
+
