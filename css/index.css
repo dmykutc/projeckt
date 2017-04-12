@@ -21,13 +21,8 @@ body {
 }
 
 #color {
-	color: rgba(0,0,0,0.6);
-
-text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-
-                 0px -5px 35px rgba(255,255,255,0.3);
-
-
+	color: rgba(0, 0, 0, 0.6);
+	text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
 	font-weight: normal;
 	text-align: center;
 }
@@ -110,11 +105,9 @@ video {
 }
 
 .carousel-inner img {
-    margin: 0 auto;
-    max-height: 250px;
+	margin: 0 auto;
+	max-height: 250px;
 }
-
- 
 
 .icon {
 	display: flex;
@@ -173,7 +166,7 @@ video {
 	iframe {
 		width: 100%;
 	}
-	html{
+	html {
 		padding: 10px;
 	}
 }
@@ -246,7 +239,7 @@ nav li:hover a:after {
 
 /*************************************/
 
-.menu  a {
+.menu a {
 	font-family: georgia;
 	font-size: 20px;
 	font-style: italic;
@@ -259,29 +252,8 @@ nav li:hover a:after {
 	border-left: 1px solid rgba(40, 40, 40, 0.2);
 }
 
-
-
-
-
-
-
-
-nivoZoomHover {
-	position:absolute;
-	top:0px;
-	left:0px;
-	z-index:9;
-	width:100%;
-	height:100%;
-	cursor:pointer;
-}
-.nivoCaption {
-	display:none;
-	position:absolute;
-	z-index:110;
-	text-align:center;
-	background:#010101;
-	color:#fff;
-	padding:4px 0;
-	overflow:hidden;
+@media screen and (max-width: 768px) {
+	.carousel-inner img {
+		max-height: 400px;
+	}
 }
