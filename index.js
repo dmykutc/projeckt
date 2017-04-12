@@ -20,3 +20,17 @@ function sendForm(e) {
     });
 
 }
+
+
+document.querySelector("input[type=submit]").addEventListener("click",sendForm);
+function sendForm(e) {
+    var form = document.querySelector("form");
+    if(form.checkValidity()){
+        e.preventDefault();
+        alert("Write code to send form here");
+    }
+}
+
+
+
+
