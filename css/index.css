@@ -5,9 +5,8 @@ html {
 body {
 	max-width: 1400px;
 	margin: 0 auto;
-	background-image: url('http://img0.liveinternet.ru/images/attach/b/1/5186/5186162_2194375_pinktum235.jpg');
 	background-attachment: fixed;
-	background-color: #ADB7BA;
+	background-color: #FCC2E7;
 }
 
 #insurances ul li a {
@@ -103,10 +102,15 @@ video {
 	height: 400px;
 	background: #000000;
 }
+#myCarousel{
+	width: 90%;
+	margin: 0 auto;
+}
 
 .carousel-inner img {
 	margin: 0 auto;
-	max-height: 250px;
+	max-height: 450px;
+	width: 100%;
 }
 
 .icon {
@@ -129,9 +133,10 @@ video {
 	}
 }
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1030px) {
 	.form {
-		display: flex;
+		margin: 40px auto;
+		margin-top: 60px;
 		width: 100%;
 		background: none;
 	}
@@ -252,8 +257,12 @@ nav li:hover a:after {
 	border-left: 1px solid rgba(40, 40, 40, 0.2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
 	.carousel-inner img {
 		max-height: 400px;
 	}
+}
+
+#wow {
+	margin-top: 20px;
 }
